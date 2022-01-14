@@ -1,0 +1,91 @@
+
+
+.header{
+    background-color: #FFB8CA;
+    @media screen and (max-width: 768px) {
+    padding-top: 6px;
+    height: 500px;
+    background-image: url(/images/header-icecream.png), url(/images/header-Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom center;
+    }
+}
+
+.header-mobile{
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.header-text{
+    @media screen and (max-width: 768px) {
+    position: relative;
+    font-family: Titan One;
+    margin: 0px;
+    padding-top: 137px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+    }
+
+    .header-text-span{
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+            }
+    
+            .header-text-span__second{
+                @media screen and (max-width: 768px) {
+                    font-family: Titan One;
+                    display: block;
+                    margin: 0px;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 46px;
+                    letter-spacing: 0.04em;
+                    text-transform: uppercase;
+                    color: #D41443;
+                }
+                    }
+
+                    .header-button{
+                        @media screen and (max-width: 768px) {
+                        min-width: 62.4px;
+                        border-radius: 20px;
+                        padding: 7px;
+                        margin-top: 19px;
+                        font-weight: 400;
+                        font-size: 8px;
+                        line-height: 10px;
+                        text-align: center;
+                        background: #D41443;
+                        color: white;
+                        border-color: transparent;
+                        font-family: DM sans;
+                        cursor: pointer;
+                        &__second{
+                            min-width: 82.8px;
+                        border-radius: 20px;
+                        padding: 7px;
+                        margin-top: 19px;
+                        margin-left: 8px;
+                        font-weight: 400;
+                        font-size: 8px;
+                        line-height: 10px;
+                        text-align: center;
+                        background: #FFFFFF;
+                        color: #D41443;
+                        border-color: transparent;
+                        font-family: DM sans;
+                        cursor: pointer;
+                        }
+                        }
+                    }
+                        
+
+
+                                        

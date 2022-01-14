@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="../css/main.min.css">
+</head>
+<body>
+
+        <!--Шапка сайта Герой-->
+
+        <header class="header">
+            <div class="container">
+            <a class="header-logo" href="./index.html"><img srcset="../images/logo-1.png 1x, ../images/logo@2x.png 2x" src="../images/logo-1.png" alt="logo icecream"></a>
+            <div class="header-mobile">
+            <button type="button">Buy now</button>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>How it’s made?</li>
+                    <li>Our products</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+            <h1 class="header-text">ice cream
+                <span class="header-text-span">made with</span>
+                <span class="header-text-span__second">passion</span></h1>
+
+                <button type="button" class="header-button">Products</button>
+                <button type="button" class="header-button__second">How it’s made?</button>
+                <div class="header-photo">
+                <!-- <img style="position: absolute;" src="../images/header-Ellipse.png" width="346" alt="photo ellipse">
+                <img style="position: absolute;" src="../images/header-icecream.png" width="171" alt="photo icecream"> -->
+            </div>
+            
+
+
+            <button  data-mobile-open type="button"  class="button-open-mobile">
+                <svg class="open-mobile-icon"><use href="../images/icons-header.svg#Burger"></use></svg></button>
+
+                <div data-mobile class="button-modal button-modal--active is-hidden">
+                    <button  data-mobile-close class="button-close-mobile" type="button">
+                        <svg class="close-mobile-icon"><use href="../images/icons-header.svg#close"></use></svg>
+                    </button>
+                    <button class="button-mobile-module" type="button">Buy now</button>
+                    <nav>
+                        <ul class="header-content">
+                            <li class="header-list header-list--active">Home</li>
+                            <li class="header-list">About us</li>
+                            <li class="header-list">How it’s made?</li>
+                            <li class="header-list">Our products</li>
+                            <li class="header-list">Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+
+        <!--Products-->
+
+        <!-- <section class="products">
+            <div class="container">
+            <ul>
+                <li class="products-list">100% natural</li>
+                <li class="products-list__second">products</li>
+            </ul>
+            <ul>
+                <li class="products-cards-list">
+                    <h3 class="products-cards-title">ice cream</h3>
+                    <p class="products-cards-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+                    <button class="products-cards-button" type="button"></button>
+                </li>
+                <li class="products-cards-list">
+                    <h3 class="products-cards-title">ice coffee</h3>
+                    <p class="products-cards-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+                    <button class="products-cards-button" type="button"></button>
+                </li>
+                <li class="products-cards-list">
+                    <h3 class="products-cards-title">milkshakes</h3>
+                    <p class="products-cards-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. dolore magna aliqua facilisis. </p>
+                    <button class="products-cards-button" type="button"></button>
+                </li>
+            </ul>
+        </div>
+        </section> -->
+
+        <!--About (how it’s made?)-->
+
+        <!-- <section class="how-made">
+            <div class="container">
+            <span class="how-made-text">tradition and love</span>
+            <h2 class="how-made-title">how it’s <br> made?</h2>
+            <img class="how-made-cowimg" srcset="/images/how-its-made-cow1x.png 1x, /images/how-its-made-cow@2x.png 2x" src="/images/how-its-made-cow1x.png" width="280" alt="photo cow">
+            <ul>
+                <li class="how-made-list">
+                    <p class="how-made-paragraph">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+                </li>
+                <li class="how-made-list">
+                    <p class="how-made-paragraph__second">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+                        Aliquam erat volutpat. Aenean accumsan.</p>
+                </li>
+            </ul>
+            <button class="how-made-button" type="button">Read more</button> -->
+        
+
+
+        <!--Advantages-->
+
+             <!-- <h2 hidden>Advantages</h2>
+           <ul class="advantages-content">
+               <li class="advantages-list">
+                   <span class="advantages-numbers">721</span>
+                   <p class="advantages-paragraph">Aliquam ac dui vel dui vulputate <br> consectetur. Mauris massa.</p>
+               </li>
+               <li class="advantages-list">
+                   <span class="advantages-numbers">16kg</span>
+                   <p class="advantages-paragraph">Aliquam ac dui vel dui vulputate <br> consectetur. Mauris massa.</p>
+               </li>
+               <li class="advantages-list">
+                   <span class="advantages-numbers">84</span>
+                   <p class="advantages-paragraph">Aliquam ac dui vel dui vulputate <br> consectetur. Mauris massa.</p>
+               </li>
+           </ul>
+        </div>
+        </section> -->
+
+        <!--Gallery-->
+
+        <!-- <section class="gallery">
+            <div class="container">
+            <h2 hidden>Gallery</h2>
+                 <img class="gallery-photo" srcset="/images/gallery.png 1x, /images/gallery@2x.png 2x" src="/images/gallery.png" alt="Gallery IceCreams">
+                </div>
+        </section> -->
+
+        <!--Customer Reviews-->
+
+        <!-- <section>
+            <div class="container">
+            <form name="user reviews" action="./index.html" autocomplete="off" novalidate>
+                <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+                <h3>Emily, Los Angeles</h3>
+            </form>
+        </div>
+        </section> -->
+
+        <!--Contacts-->
+
+        <!-- <section>
+            <div class="container">
+            <h2 hidden>Contacts</h2>
+            <ul>
+                <li>
+                    <span>CAFE</span>
+                    <ul>
+                        <li>
+                            <h3>Chicago</h3>
+                            <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        </li>
+                        <li>
+                            <h3>Monday - Friday</h3>
+                            <p>06:00 AM - 10:00 PM</p>
+                            <h3>Saturday - Sunday</h3>
+                            <p>08:00 AM - 16:00 PM</p>
+                        </li>
+                        <li>
+                            <a href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
+                            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>FOOD TRUCK</span>
+                    <ul>
+                        <li>
+                            <h3>Los Angeles</h3>
+                            <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        </li>
+                        <li>
+                            <h3>Monday - Friday</h3>
+                            <p>06:00 AM - 10:00 PM</p>
+                            <h3>Saturday - Sunday</h3>
+                            <p>08:00 AM - 16:00 PM</p>
+                        </li>
+                        <li>
+                            <a href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
+                            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>CAFE</span>
+                    <ul>
+                        <li>
+                            <h3>New York</h3>
+                            <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        </li>
+                        <li>
+                            <h3>Monday - Friday</h3>
+                            <p>06:00 AM - 10:00 PM</p>
+                            <h3>Saturday 06:00 AM - 10:00 PM- Sunday</h3>
+                            <p>08:00 AM - 16:00 PM</p>
+                        </li>
+                        <li>
+                            <a href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
+                            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        <button type="button">Our Locations</button>
+        <button type="button">Franchise</button>
+    </div>
+        </section> -->
+
+        <!--Footer-->
+
+        <!-- <footer>
+            <div class="container">
+            <p>homemade ice cream made <span>with passion</span></p>
+            <ul>
+                <li>
+                    <a href="https://github.com" target="_blank" rel="noreferrer noopener">
+                        <svg>
+                            <use href=''></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://desktop.telegram.org" target="_blank" rel="noreferrer noopener">
+                        <svg>
+                            <use href=''></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener">
+                        <svg>
+                            <use href=''></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <span>Feel free to contact <a href="tel:+61(0)383766284">+61 (0) 383 766 284</a></span>
+            <p>&copy; 2019 - IceCream. All Rights Reserved.</p>
+        </div>
+        </footer> -->
+        <script src="../js/mobile-menu.js"></script>
+</body>
+</html>

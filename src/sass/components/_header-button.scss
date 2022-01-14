@@ -1,0 +1,126 @@
+
+
+.button-open-mobile{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        display: none;
+    }
+    
+    @media screen and (min-width: 1200px){
+        display: none;
+    }
+    }
+
+
+
+    .button-close-mobile{
+        position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        display: none;
+    }
+    
+    @media screen and (min-width: 1200px){
+        display: none;
+    }
+    }
+
+    .open-mobile-icon{
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        fill: #D41443;
+    }
+
+    .close-mobile-icon{
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: 6px;
+        right: 3px;
+    }
+
+    .button-modal{
+        position: fixed;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 0px;
+        right: 0px;
+        width: 250px;
+        height: 500px;
+        border: none;
+        background-color: transparent;
+        opacity: 1;
+        transform: translateX(100%);
+        
+        &.is-hidden{
+            opacity: 0;
+            pointer-events: none;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+            display: none;
+        }
+        }
+
+        .button-modal--active{
+            transform: translate(0);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+
+        .button-mobile-module{
+            width: 209px;
+            border-radius: 20px;
+            padding: 7px;
+            margin-top: 60px;
+            margin-bottom: 19px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            background: #FFFFFF;
+            color: #D41443;
+            border-color: transparent;
+            font-family: DM sans;
+            cursor: pointer;
+            z-index: 222;
+        }
+
+        
+
+        .header-list{
+            font-family: DM Sans;
+            margin-top: 22px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            z-index: 3000;
+        }
+
+        .header-list--active{
+            color: #D41443;
+        }
+
+        .header-content{
+            margin-top: -22px;
+            margin-bottom: 0px;
+            padding: 0;
+        }
